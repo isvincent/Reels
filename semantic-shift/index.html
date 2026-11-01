@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>語言與文化小教室</title>
+<style>
+  @font-face { font-family: "Huninn"; src: url(fonts/jf-openhuninn-2.1.ttf) format("truetype"); font-weight: 400; }
+  html, body { margin: 0; background: #FFFCF3; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module" src="./preview.js"></script>
+<script type="module">
+// Page contract: window.render(t) draws frame t (seconds) and depends on nothing else; READY after fonts load.
+import * as TL from './timeline.js';
+import { stageSize, setupCanvas, loadFonts } from './motion.js';
+import { init, frame, FONT } from './engine.js';
+import { BOARDS } from './scenes.js';
+
+const { W, H } = stageSize();
+const ctx = setupCanvas(document.getElementById('c'), W, H);
+init(ctx, TL);
+window.DUR = TL.DUR;
+window.render = t => {
+  ctx.save(); ctx.setTransform(window.devicePixelRatio || 1, 0, 0, window.devicePixelRatio || 1, 0, 0);
+  ctx.clearRect(0, 0, W, H);
+  frame(t, BOARDS);
+  ctx.restore();
+};
+await loadFonts([`400 60px ${FONT}`]);
+window.render(0);
+window.READY = true;
+</script>
+</body>
+</html>

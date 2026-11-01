@@ -1,0 +1,246 @@
+{
+ "version": 1,
+ "source": {
+  "type": "ai-written-script",
+  "provenance": "written by Claude at the user's explicit request (teaching explanation per topic)",
+  "file": "script.json"
+ },
+ "voice": {
+  "engine": "sherpa-onnx offline TTS",
+  "model": "vits-melo-tts-zh_en (MeloTTS, MIT)",
+  "speaker": 0,
+  "speed": 1.0,
+  "note": "Chromium on this machine only exposes espeak-ng voices, which cannot read Chinese; an offline neural voice was used instead."
+ },
+ "alignment": "tts-clauses (each clause synthesised separately; times are measured, not estimated)",
+ "duration": 63.3667,
+ "lead": 2.6,
+ "tail": 4.0,
+ "file": "audio/voice.wav",
+ "segments": [
+  {
+   "id": "s1",
+   "board": "hook",
+   "text": "你說的語言，會不會悄悄改變你看世界的方式？",
+   "start": 2.6,
+   "end": 5.924,
+   "clauses": [
+    {
+     "text": "你說的語言，",
+     "start": 2.6,
+     "end": 3.379
+    },
+    {
+     "text": "會不會悄悄改變你看世界的方式？",
+     "start": 3.539,
+     "end": 5.924
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "board": "title",
+   "text": "這就是「薩丕爾－沃爾夫假說」，也叫做「語言相對論」。",
+   "start": 6.674,
+   "end": 10.368,
+   "clauses": [
+    {
+     "text": "這就是「薩丕爾－沃爾夫假說」，",
+     "start": 6.674,
+     "end": 8.702
+    },
+    {
+     "text": "也叫做「語言相對論」。",
+     "start": 8.862,
+     "end": 10.368
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "board": "title",
+   "text": "它來自美國語言學家薩丕爾，和他的學生沃爾夫。",
+   "start": 10.818,
+   "end": 14.268,
+   "clauses": [
+    {
+     "text": "它來自美國語言學家薩丕爾，",
+     "start": 10.818,
+     "end": 12.769
+    },
+    {
+     "text": "和他的學生沃爾夫。",
+     "start": 12.929,
+     "end": 14.268
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "board": "versus",
+   "text": "這個假說有強、弱兩種版本。",
+   "start": 15.018,
+   "end": 17.058,
+   "clauses": [
+    {
+     "text": "這個假說有強、弱兩種版本。",
+     "start": 15.018,
+     "end": 17.058
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "board": "versus",
+   "text": "強版本認為：語言「決定」思想，沒有那個詞，就想不出那個概念。多數學者認為這太極端了。",
+   "start": 17.508,
+   "end": 24.415,
+   "clauses": [
+    {
+     "text": "強版本認為：語言「決定」思想，",
+     "start": 17.508,
+     "end": 19.662
+    },
+    {
+     "text": "沒有那個詞，就想不出那個概念。",
+     "start": 19.822,
+     "end": 22.252
+    },
+    {
+     "text": "多數學者認為這太極端了。",
+     "start": 22.412,
+     "end": 24.415
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "board": "versus",
+   "text": "弱版本認為：語言會「影響」思考，像是注意力、記憶和分類，這得到不少研究支持。",
+   "start": 24.865,
+   "end": 30.793,
+   "clauses": [
+    {
+     "text": "弱版本認為：語言會「影響」思考，",
+     "start": 24.865,
+     "end": 27.202
+    },
+    {
+     "text": "像是注意力、記憶和分類，",
+     "start": 27.362,
+     "end": 29.129
+    },
+    {
+     "text": "這得到不少研究支持。",
+     "start": 29.289,
+     "end": 30.793
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "board": "blue",
+   "text": "例如俄語把淺藍和深藍分成兩個詞，實驗發現，俄語使用者分辨這兩種藍更快。",
+   "start": 31.543,
+   "end": 37.556,
+   "clauses": [
+    {
+     "text": "例如俄語把淺藍和深藍分成兩個詞，",
+     "start": 31.543,
+     "end": 34.2
+    },
+    {
+     "text": "實驗發現，俄語使用者分辨這兩種藍更快。",
+     "start": 34.36,
+     "end": 37.556
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "board": "compass",
+   "text": "澳洲的古古伊米希爾語不說左右，只用東南西北，說這種語言的人方向感超強。",
+   "start": 38.306,
+   "end": 44.101,
+   "clauses": [
+    {
+     "text": "澳洲的古古伊米希爾語不說左右，",
+     "start": 38.306,
+     "end": 40.557
+    },
+    {
+     "text": "只用東南西北，",
+     "start": 40.717,
+     "end": 41.743
+    },
+    {
+     "text": "說這種語言的人方向感超強。",
+     "start": 41.903,
+     "end": 44.101
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "board": "time",
+   "text": "中文用「上個月、下個月」說時間，英文則常用前後，學者也研究這會不會影響時間想像。",
+   "start": 44.851,
+   "end": 51.336,
+   "clauses": [
+    {
+     "text": "中文用「上個月、下個月」說時間，",
+     "start": 44.851,
+     "end": 47.108
+    },
+    {
+     "text": "英文則常用前後，",
+     "start": 47.268,
+     "end": 48.564
+    },
+    {
+     "text": "學者也研究這會不會影響時間想像。",
+     "start": 48.724,
+     "end": 51.336
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "board": "glasses",
+   "text": "所以語言不是思想的牢籠，卻可能是一副有色眼鏡。",
+   "start": 52.086,
+   "end": 55.765,
+   "clauses": [
+    {
+     "text": "所以語言不是思想的牢籠，",
+     "start": 52.086,
+     "end": 53.851
+    },
+    {
+     "text": "卻可能是一副有色眼鏡。",
+     "start": 54.011,
+     "end": 55.765
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "board": "end",
+   "text": "多學一種語言，就多一個看世界的角度！",
+   "start": 56.515,
+   "end": 59.358,
+   "clauses": [
+    {
+     "text": "多學一種語言，",
+     "start": 56.515,
+     "end": 57.552
+    },
+    {
+     "text": "就多一個看世界的角度！",
+     "start": 57.712,
+     "end": 59.358
+    }
+   ]
+  }
+ ]
+}
