@@ -1,0 +1,218 @@
+{
+ "version": 1,
+ "source": {
+  "type": "ai-written-script",
+  "provenance": "written by Claude at the user's explicit request (teaching explanation per topic)",
+  "file": "script.json"
+ },
+ "voice": {
+  "engine": "sherpa-onnx offline TTS",
+  "model": "vits-melo-tts-zh_en (MeloTTS, MIT)",
+  "speaker": 0,
+  "speed": 1.0,
+  "note": "Chromium on this machine only exposes espeak-ng voices, which cannot read Chinese; an offline neural voice was used instead."
+ },
+ "alignment": "tts-clauses (each clause synthesised separately; times are measured, not estimated)",
+ "duration": 60.5667,
+ "lead": 2.6,
+ "tail": 4.0,
+ "file": "audio/voice.wav",
+ "segments": [
+  {
+   "id": "s1",
+   "board": "hook",
+   "text": "你聽過「公地悲劇」嗎？大家都搶著用，資源很快被用光。那如果反過來呢？",
+   "start": 2.6,
+   "end": 7.926,
+   "clauses": [
+    {
+     "text": "你聽過「公地悲劇」嗎？",
+     "start": 2.6,
+     "end": 3.849
+    },
+    {
+     "text": "大家都搶著用，資源很快被用光。",
+     "start": 4.009,
+     "end": 6.496
+    },
+    {
+     "text": "那如果反過來呢？",
+     "start": 6.656,
+     "end": 7.926
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "board": "def",
+   "text": "「反公地悲劇」是指：一項資源有太多人握有否決權，結果誰都用不了，資源被閒置浪費。",
+   "start": 8.676,
+   "end": 14.946,
+   "clauses": [
+    {
+     "text": "「反公地悲劇」是指：",
+     "start": 8.676,
+     "end": 9.836
+    },
+    {
+     "text": "一項資源有太多人握有否決權，",
+     "start": 9.996,
+     "end": 12.216
+    },
+    {
+     "text": "結果誰都用不了，資源被閒置浪費。",
+     "start": 12.376,
+     "end": 14.946
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "board": "def",
+   "text": "這個概念由美國法學家海勒在 1998 年提出。",
+   "start": 15.396,
+   "end": 18.707,
+   "clauses": [
+    {
+     "text": "這個概念由美國法學家海勒在 1998 年提出。",
+     "start": 15.396,
+     "end": 18.707
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "board": "moscow",
+   "text": "他的例子是莫斯科：許多店面空著，因為要很多單位同意才能使用，街邊的小攤販反而生意興隆。",
+   "start": 19.457,
+   "end": 26.63,
+   "clauses": [
+    {
+     "text": "他的例子是莫斯科：",
+     "start": 19.457,
+     "end": 20.972
+    },
+    {
+     "text": "許多店面空著，因為要很多單位同意才能使用，",
+     "start": 21.132,
+     "end": 24.499
+    },
+    {
+     "text": "街邊的小攤販反而生意興隆。",
+     "start": 24.659,
+     "end": 26.63
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "board": "patent",
+   "text": "生物醫學也一樣：研發新藥可能要用到很多專利，只要一人不授權，研究就卡住。",
+   "start": 27.38,
+   "end": 33.371,
+   "clauses": [
+    {
+     "text": "生物醫學也一樣：",
+     "start": 27.38,
+     "end": 28.537
+    },
+    {
+     "text": "研發新藥可能要用到很多專利，",
+     "start": 28.697,
+     "end": 30.799
+    },
+    {
+     "text": "只要一人不授權，研究就卡住。",
+     "start": 30.959,
+     "end": 33.371
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "board": "renewal",
+   "text": "都市更新也常遇到：老公寓要改建，需要許多住戶同意，少數人反對，計畫就停擺。",
+   "start": 34.121,
+   "end": 40.512,
+   "clauses": [
+    {
+     "text": "都市更新也常遇到：",
+     "start": 34.121,
+     "end": 35.53
+    },
+    {
+     "text": "老公寓要改建，需要許多住戶同意，",
+     "start": 35.69,
+     "end": 38.33
+    },
+    {
+     "text": "少數人反對，計畫就停擺。",
+     "start": 38.49,
+     "end": 40.512
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "board": "compare",
+   "text": "和公地悲劇對比：公地悲劇是「使用過度」，反公地悲劇是「使用不足」。",
+   "start": 41.262,
+   "end": 45.861,
+   "clauses": [
+    {
+     "text": "和公地悲劇對比：",
+     "start": 41.262,
+     "end": 42.391
+    },
+    {
+     "text": "公地悲劇是「使用過度」，",
+     "start": 42.551,
+     "end": 44.038
+    },
+    {
+     "text": "反公地悲劇是「使用不足」。",
+     "start": 44.198,
+     "end": 45.861
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "board": "compare",
+   "text": "解決方法包括：整合產權、建立專利池，或訂出合理的同意門檻。",
+   "start": 46.311,
+   "end": 51.223,
+   "clauses": [
+    {
+     "text": "解決方法包括：整合產權、建立專利池，",
+     "start": 46.311,
+     "end": 49.367
+    },
+    {
+     "text": "或訂出合理的同意門檻。",
+     "start": 49.527,
+     "end": 51.223
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "board": "end",
+   "text": "想一想：生活中還有哪些事，因為要「每個人都點頭」而卡住呢？",
+   "start": 51.973,
+   "end": 56.54,
+   "clauses": [
+    {
+     "text": "想一想：生活中還有哪些事，",
+     "start": 51.973,
+     "end": 54.16
+    },
+    {
+     "text": "因為要「每個人都點頭」而卡住呢？",
+     "start": 54.32,
+     "end": 56.54
+    }
+   ]
+  }
+ ]
+}

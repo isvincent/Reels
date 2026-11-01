@@ -1,0 +1,20 @@
+{
+  "title": "文化擴散",
+  "en": "Cultural Diffusion",
+  "ep": 5,
+  "accent": "#FF9F1C",
+  "music": { "bpm": 100, "root": "C3", "prog": [["C3","add9"],["A2","min7"],["F2","maj7"],["G2","sus4"]], "lead": "steel", "seed": 71 },
+  "segments": [
+    { "id": "s1", "board": "hook", "clauses": ["你手上的珍珠奶茶、身上的牛仔褲，", "其實都是「環遊世界」的旅人！"] },
+    { "id": "s2", "board": "def", "clauses": ["文化從一個地方傳到另一個地方，", "就叫做「文化擴散」。"] },
+    { "id": "s3", "board": "two", "clauses": ["地理學把它分成兩大類：", "遷移擴散和擴展擴散。"] },
+    { "id": "s4", "board": "relocate", "clauses": ["遷移擴散：人搬家，文化跟著走。", "像華人移民把中華料理帶到世界各地。"] },
+    { "id": "s5", "board": "ripple", "clauses": ["擴展擴散：文化像水波一樣向外擴大，", "又分成三種。"] },
+    { "id": "s6", "board": "contagious", "clauses": ["傳染擴散：人傳人、一傳十、十傳百，", "像流行語在校園裡爆紅。"] },
+    { "id": "s7", "board": "hier", "clauses": ["階層擴散：從大城市或名人開始，", "再往下傳，", "像時尚潮流。"] },
+    { "id": "s8", "board": "stimulus", "clauses": ["刺激擴散：只有概念傳過去，", "再被當地改造。", "像速食店在印度賣不含牛肉的漢堡。"] },
+    { "id": "s9", "board": "blend", "clauses": ["文化在交流中不只複製，", "也會混合出新的樣子。"] },
+    { "id": "s10", "board": "speed", "clauses": ["從絲路到網路，", "文化旅行得越來越快。"] },
+    { "id": "s11", "board": "end", "clauses": ["想一想：你身邊還有什麼，", "是從遠方旅行來的呢？"] }
+  ]
+}

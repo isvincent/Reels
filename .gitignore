@@ -1,0 +1,10 @@
+.models/
+*/audio/tts-cache/
+*/out/proxy*.mp4
+*/out/seg*.mp4
+*/qa/stills/
+node_modules/
+*/out/
+*/qa/
+*/audio/*.wav
+!*/audio/voice.json

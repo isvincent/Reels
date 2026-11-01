@@ -1,0 +1,20 @@
+{
+  "title": "格林定律",
+  "en": "Grimm's Law",
+  "ep": 1,
+  "accent": "#3AA8F5",
+  "music": { "bpm": 104, "root": "D3", "prog": [["D3","maj"],["A2","maj"],["B2","min"],["G2","maj"]], "lead": "marimba", "seed": 11 },
+  "segments": [
+    { "id": "s1", "board": "hook", "clauses": ["為什麼英文的 father，", "在拉丁文裡卻是 pater？"] },
+    { "id": "s2", "board": "title", "clauses": ["這背後藏著一條語音規律，", "叫做「格林定律」。"] },
+    { "id": "s3", "board": "title", "clauses": [{"show":"它由德國學者雅各布‧格林", "say":"它由德國學者雅各布格林"}, {"show":"在 1822 年系統整理，", "say":"在一八二二年系統整理，"}, "他就是《格林童話》的哥哥！"] },
+    { "id": "s4", "board": "tree", "clauses": ["從原始印歐語演變成日耳曼語時，", "一整組子音發生了「連鎖推移」。"] },
+    { "id": "s5", "board": "table", "clauses": ["第一步：清塞音變擦音。", {"show":"p 變 f，t 變 th，k 變 h。", "say":"P 變 F，T 變 T H，K 變 H。"}] },
+    { "id": "s6", "board": "table", "clauses": ["所以拉丁文 pater 是英文 father，", {"show":"tres 是 three，", "say":"tres 是 three，"}, "cornu 是 horn。"] },
+    { "id": "s7", "board": "table", "clauses": ["第二步：濁塞音變清塞音。", {"show":"d 變 t，g 變 k，", "say":"D 變 T，G 變 K，"}, "拉丁文 duo 就是英文 two。"] },
+    { "id": "s8", "board": "table", "clauses": ["第三步：送氣濁塞音失去送氣。", {"show":"bh 變 b，dh 變 d，gh 變 g，", "say":"B H 變 B，D H 變 D，G H 變 G，"}, {"show":"梵文 bhrātar 就成了 brother。", "say":"梵文 bratar 就成了 brother。"}] },
+    { "id": "s9", "board": "domino", "clauses": ["三組變化環環相扣，像推骨牌一樣，", "讓英文和拉丁文長得不太像。"] },
+    { "id": "s10", "board": "family", "clauses": ["其實它們是遠房親戚，", "語音的改變並不隨便，而是有規律的。"] },
+    { "id": "s11", "board": "end", "clauses": ["下次背單字時，", "試著找找它的拉丁「表親」吧！"] }
+  ]
+}
