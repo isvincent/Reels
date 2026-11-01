@@ -1,0 +1,208 @@
+{
+ "version": 1,
+ "source": {
+  "type": "ai-written-script",
+  "provenance": "written by Claude at the user's explicit request (teaching explanation per topic)",
+  "file": "script.json"
+ },
+ "voice": {
+  "engine": "sherpa-onnx offline TTS",
+  "model": "vits-melo-tts-zh_en (MeloTTS, MIT)",
+  "speaker": 0,
+  "speed": 1.0,
+  "note": "Chromium on this machine only exposes espeak-ng voices, which cannot read Chinese; an offline neural voice was used instead."
+ },
+ "alignment": "tts-clauses (each clause synthesised separately; times are measured, not estimated)",
+ "duration": 56.7333,
+ "lead": 2.6,
+ "tail": 4.0,
+ "file": "audio/voice.wav",
+ "segments": [
+  {
+   "id": "s1",
+   "board": "hook",
+   "text": "如果一條法律很不公平，你會選擇遵守，還是公開違反它？",
+   "start": 2.6,
+   "end": 6.949,
+   "clauses": [
+    {
+     "text": "如果一條法律很不公平，",
+     "start": 2.6,
+     "end": 4.303
+    },
+    {
+     "text": "你會選擇遵守，還是公開違反它？",
+     "start": 4.463,
+     "end": 6.949
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "board": "def",
+   "text": "「公民不服從」是指：為了改變不公正的法律或政策，公開、和平地故意違法。",
+   "start": 7.699,
+   "end": 13.043,
+   "clauses": [
+    {
+     "text": "「公民不服從」是指：",
+     "start": 7.699,
+     "end": 8.965
+    },
+    {
+     "text": "為了改變不公正的法律或政策，",
+     "start": 9.125,
+     "end": 11.35
+    },
+    {
+     "text": "公開、和平地故意違法。",
+     "start": 11.51,
+     "end": 13.043
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "board": "thoreau",
+   "text": "美國作家梭羅在 1849 年發表〈論公民不服從〉，他因反對奴隸制和戰爭而拒絕繳稅。",
+   "start": 13.793,
+   "end": 20.02,
+   "clauses": [
+    {
+     "text": "美國作家梭羅在 1849 年發表〈論公民不服從〉，",
+     "start": 13.793,
+     "end": 17.195
+    },
+    {
+     "text": "他因反對奴隸制和戰爭而拒絕繳稅。",
+     "start": 17.355,
+     "end": 20.02
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "board": "history",
+   "text": "後來，甘地和馬丁‧路德‧金恩，都用非暴力的方式爭取權利。",
+   "start": 20.77,
+   "end": 24.819,
+   "clauses": [
+    {
+     "text": "後來，甘地和馬丁‧路德‧金恩，",
+     "start": 20.77,
+     "end": 22.63
+    },
+    {
+     "text": "都用非暴力的方式爭取權利。",
+     "start": 22.79,
+     "end": 24.819
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "board": "bus",
+   "text": "1955 年，羅莎‧帕克斯拒絕在公車上讓座給白人，引發了蒙哥馬利公車抵制運動。",
+   "start": 25.569,
+   "end": 31.705,
+   "clauses": [
+    {
+     "text": "1955 年，羅莎‧帕克斯拒絕在公車上讓座給白人，",
+     "start": 25.569,
+     "end": 29.294
+    },
+    {
+     "text": "引發了蒙哥馬利公車抵制運動。",
+     "start": 29.454,
+     "end": 31.705
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "board": "features",
+   "text": "公民不服從通常有幾個特徵：公開進行、非暴力、為了公共利益，而且願意承擔法律後果。",
+   "start": 32.455,
+   "end": 39.008,
+   "clauses": [
+    {
+     "text": "公民不服從通常有幾個特徵：",
+     "start": 32.455,
+     "end": 34.537
+    },
+    {
+     "text": "公開進行、非暴力、為了公共利益，",
+     "start": 34.697,
+     "end": 37.038
+    },
+    {
+     "text": "而且願意承擔法律後果。",
+     "start": 37.198,
+     "end": 39.008
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "board": "debate",
+   "text": "但它也有爭議：誰來判斷法律不正義？違法會不會破壞法治？",
+   "start": 39.758,
+   "end": 44.165,
+   "clauses": [
+    {
+     "text": "但它也有爭議：",
+     "start": 39.758,
+     "end": 40.685
+    },
+    {
+     "text": "誰來判斷法律不正義？",
+     "start": 40.845,
+     "end": 42.389
+    },
+    {
+     "text": "違法會不會破壞法治？",
+     "start": 42.549,
+     "end": 44.165
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "board": "end",
+   "text": "理解公民不服從，能幫助我們思考法律與正義的關係。",
+   "start": 44.915,
+   "end": 48.765,
+   "clauses": [
+    {
+     "text": "理解公民不服從，",
+     "start": 44.915,
+     "end": 46.19
+    },
+    {
+     "text": "能幫助我們思考法律與正義的關係。",
+     "start": 46.35,
+     "end": 48.765
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "board": "end",
+   "text": "想一想：在什麼情況下，你認為違法是合理的？",
+   "start": 49.215,
+   "end": 52.731,
+   "clauses": [
+    {
+     "text": "想一想：在什麼情況下，",
+     "start": 49.215,
+     "end": 51.101
+    },
+    {
+     "text": "你認為違法是合理的？",
+     "start": 51.261,
+     "end": 52.731
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "version": 1,
+ "source": {
+  "type": "ai-written-script",
+  "provenance": "written by Claude at the user's explicit request (teaching explanation per topic)",
+  "file": "script.json"
+ },
+ "voice": {
+  "engine": "sherpa-onnx offline TTS",
+  "model": "vits-melo-tts-zh_en (MeloTTS, MIT)",
+  "speaker": 0,
+  "speed": 1.0,
+  "note": "Chromium on this machine only exposes espeak-ng voices, which cannot read Chinese; an offline neural voice was used instead."
+ },
+ "alignment": "tts-clauses (each clause synthesised separately; times are measured, not estimated)",
+ "duration": 63.3,
+ "lead": 2.6,
+ "tail": 4.0,
+ "file": "audio/voice.wav",
+ "segments": [
+  {
+   "id": "s1",
+   "board": "hook",
+   "text": "你的鍵盤，為什麼字母排成 QWERTY？這不一定是最有效率的排法。",
+   "start": 2.6,
+   "end": 8.319,
+   "clauses": [
+    {
+     "text": "你的鍵盤，為什麼字母排成 QWERTY？",
+     "start": 2.6,
+     "end": 6.155
+    },
+    {
+     "text": "這不一定是最有效率的排法。",
+     "start": 6.315,
+     "end": 8.319
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "board": "def",
+   "text": "這和一個概念有關，叫「路徑依賴」。意思是：過去的選擇，會影響、甚至限制現在的選項。",
+   "start": 9.069,
+   "end": 15.867,
+   "clauses": [
+    {
+     "text": "這和一個概念有關，叫「路徑依賴」。",
+     "start": 9.069,
+     "end": 11.421
+    },
+    {
+     "text": "意思是：過去的選擇，會影響、甚至限制現在的選項。",
+     "start": 11.581,
+     "end": 15.867
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "board": "typewriter",
+   "text": "早期打字機的按鍵很容易卡住，一種常見說法是，QWERTY 排列能減少卡鍵。",
+   "start": 16.617,
+   "end": 23.281,
+   "clauses": [
+    {
+     "text": "早期打字機的按鍵很容易卡住，",
+     "start": 16.617,
+     "end": 18.74
+    },
+    {
+     "text": "一種常見說法是，QWERTY 排列能減少卡鍵。",
+     "start": 18.9,
+     "end": 23.281
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "board": "lockin",
+   "text": "後來大家都學會了這種排法，工廠繼續生產、學校繼續教，就算有新排法，也很難換掉。",
+   "start": 24.031,
+   "end": 30.637,
+   "clauses": [
+    {
+     "text": "後來大家都學會了這種排法，",
+     "start": 24.031,
+     "end": 26.056
+    },
+    {
+     "text": "工廠繼續生產、學校繼續教，",
+     "start": 26.216,
+     "end": 28.227
+    },
+    {
+     "text": "就算有新排法，也很難換掉。",
+     "start": 28.387,
+     "end": 30.637
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "board": "lockin",
+   "text": "這就叫「鎖定效應」。越多人使用，好處越多，轉換的成本也越高。",
+   "start": 31.087,
+   "end": 36.105,
+   "clauses": [
+    {
+     "text": "這就叫「鎖定效應」。",
+     "start": 31.087,
+     "end": 32.323
+    },
+    {
+     "text": "越多人使用，好處越多，",
+     "start": 32.483,
+     "end": 34.49
+    },
+    {
+     "text": "轉換的成本也越高。",
+     "start": 34.65,
+     "end": 36.105
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "board": "rail",
+   "text": "火車鐵軌也是例子：許多國家的鐵路軌距是 1435 毫米，一旦鋪好，就很難全部改。",
+   "start": 36.855,
+   "end": 43.634,
+   "clauses": [
+    {
+     "text": "火車鐵軌也是例子：",
+     "start": 36.855,
+     "end": 38.255
+    },
+    {
+     "text": "許多國家的鐵路軌距是 1435 毫米，",
+     "start": 38.415,
+     "end": 41.558
+    },
+    {
+     "text": "一旦鋪好，就很難全部改。",
+     "start": 41.718,
+     "end": 43.634
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "board": "fields",
+   "text": "路徑依賴也出現在城市規劃、法律制度和科技標準裡。",
+   "start": 44.384,
+   "end": 48.221,
+   "clauses": [
+    {
+     "text": "路徑依賴也出現在城市規劃、",
+     "start": 44.384,
+     "end": 46.405
+    },
+    {
+     "text": "法律制度和科技標準裡。",
+     "start": 46.565,
+     "end": 48.221
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "board": "lesson",
+   "text": "它提醒我們：重要的決定，一開始就要想清楚，因為未來可能很難回頭。",
+   "start": 48.971,
+   "end": 54.429,
+   "clauses": [
+    {
+     "text": "它提醒我們：",
+     "start": 48.971,
+     "end": 49.783
+    },
+    {
+     "text": "重要的決定，一開始就要想清楚，",
+     "start": 49.943,
+     "end": 52.586
+    },
+    {
+     "text": "因為未來可能很難回頭。",
+     "start": 52.746,
+     "end": 54.429
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "board": "end",
+   "text": "想一想：你有哪些習慣，是因為「一直都這樣」才延續下來的？",
+   "start": 55.179,
+   "end": 59.275,
+   "clauses": [
+    {
+     "text": "想一想：你有哪些習慣，",
+     "start": 55.179,
+     "end": 56.902
+    },
+    {
+     "text": "是因為「一直都這樣」才延續下來的？",
+     "start": 57.062,
+     "end": 59.275
+    }
+   ]
+  }
+ ]
+}

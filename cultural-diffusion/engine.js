@@ -283,6 +283,16 @@ export function icon(name, x, y, s, color = ACC, t = 0) {
     case 'crown': ctx.beginPath(); ctx.moveTo(-40, 24); ctx.lineTo(-44, -20); ctx.lineTo(-20, 2); ctx.lineTo(0, -32); ctx.lineTo(20, 2); ctx.lineTo(44, -20); ctx.lineTo(40, 24); ctx.closePath(); ctx.fillStyle = PAL.sun; ctx.fill(); ctx.strokeStyle = I; ctx.lineWidth = 4; ctx.stroke(); break;
     case 'leaf': ctx.beginPath(); ctx.moveTo(-30, 30); ctx.quadraticCurveTo(-36, -30, 34, -34); ctx.quadraticCurveTo(30, 30, -30, 30); ctx.fillStyle = PAL.mint; ctx.fill(); line(-30, 30, 20, -20, '#15936F', 4); break;
     case 'cow': circle(0, 0, 36, PAL.white, I, 4); circle(-12, -8, 6, I); circle(12, -8, 6, I); rr(-22, 8, 44, 22, 11, PAL.pink); circle(-26, -26, 9, PAL.white, I, 3); circle(26, -26, 9, PAL.white, I, 3); break;
+    case 'coin': circle(0, 0, 44, PAL.sun, '#D9A400', 6); circle(0, 0, 30, null, '#D9A400', 4); txt('$', 0, 2, 44, '#B07F00'); break;
+    case 'cash': rr(-50, -28, 100, 56, 8, '#9BE3B5', '#15936F', 4); circle(0, 0, 16, null, '#15936F', 4); txt('$', 0, 1, 22, '#15936F'); break;
+    case 'shield': ctx.beginPath(); ctx.moveTo(0, -48); ctx.lineTo(40, -32); ctx.quadraticCurveTo(40, 26, 0, 50); ctx.quadraticCurveTo(-40, 26, -40, -32); ctx.closePath(); ctx.fillStyle = color; ctx.fill(); ctx.strokeStyle = I; ctx.lineWidth = 5; ctx.stroke(); path([[-16, 0], [-4, 14], [18, -14]], 1, PAL.white, 8); break;
+    case 'ballot': rr(-44, -10, 88, 56, 8, color, I, 4); rr(-24, -2, 48, 8, 4, I); ctx.save(); ctx.translate(0, -20); ctx.rotate(-0.15); rr(-20, -30, 40, 42, 4, PAL.white, I, 3); path([[-10, -10], [-2, -2], [12, -20]], 1, PAL.coral, 4); ctx.restore(); break;
+    case 'pill': ctx.save(); ctx.rotate(-0.6); rr(-46, -20, 92, 40, 20, PAL.coral); rr(0, -20, 46, 40, 20, PAL.white); rr(-46, -20, 92, 40, 20, null, I, 4); ctx.restore(); break;
+    case 'shop': rr(-46, -20, 92, 66, 4, PAL.cream, I, 4); for (let i = 0; i < 5; i++) { ctx.beginPath(); ctx.arc(-37 + i * 18.5, -20, 9.25, 0, Math.PI); ctx.fillStyle = i % 2 ? PAL.white : color; ctx.fill(); } rr(-46, -38, 92, 18, 3, color); rr(-12, 8, 24, 38, 3, PAL.sky); break;
+    case 'megaphone': ctx.beginPath(); ctx.moveTo(-36, -14); ctx.lineTo(28, -42); ctx.lineTo(28, 42); ctx.lineTo(-36, 14); ctx.closePath(); ctx.fillStyle = color; ctx.fill(); ctx.strokeStyle = I; ctx.lineWidth = 4; ctx.stroke(); rr(-50, -14, 16, 28, 4, I); for (let i = 0; i < 3; i++) path(curve(40 + i * 10, -20 - i * 8, 52 + i * 12, 0, 40 + i * 10, 20 + i * 8), 1, color, 5); break;
+    case 'robot': rr(-34, -34, 68, 56, 12, '#C9D3E6', I, 4); circle(-14, -8, 8, ACC); circle(14, -8, 8, ACC); rr(-14, 8, 28, 6, 3, I); line(0, -34, 0, -50, I, 4); circle(0, -52, 6, PAL.coral); rr(-28, 26, 56, 24, 6, '#C9D3E6', I, 4); break;
+    case 'train': rr(-50, -40, 100, 70, 14, color, I, 4); rr(-38, -28, 32, 24, 4, PAL.white); rr(6, -28, 32, 24, 4, PAL.white); circle(-26, 36, 12, I); circle(26, 36, 12, I); break;
+    case 'key': circle(-24, 0, 22, null, color, 10); rr(-2, -6, 56, 12, 4, color); rr(34, 4, 8, 16, 2, color); rr(46, 4, 8, 12, 2, color); break;
     default: circle(0, 0, 40, color);
   }
   ctx.restore();
@@ -322,7 +332,7 @@ export function header(t) {
   const x = lerp(WD / 2 - w2 / 2, 60, k), y = lerp(860, 172, k);
   // EP chip
   const chipK = A(t, 0.35);
-  const chipTxt = `語言與文化小教室 · EP.${String(TL.EP).padStart(2, '0')}`, chipS = lerp(34, 28, k), chipW = tw(chipTxt, chipS) + chipS * 1.1;
+  const chipTxt = `${TL.SERIES || '語言與文化小教室'} · EP.${String(TL.EP).padStart(2, '0')}`, chipS = lerp(34, 28, k), chipW = tw(chipTxt, chipS) + chipS * 1.1;
   chip(chipTxt, lerp(WD / 2, 60 + chipW / 2, k), lerp(700, 76, k), chipS, ACC, PAL.white, chipK, { rot: lerp(-0.04, 0, k) });
   ctx.save(); ctx.translate(x + w2 / 2, y); const s = clamp(kIn, 0, 1.3); ctx.scale(s, s); ctx.translate(-(x + w2 / 2), -y);
   marker(x - 8, y + sz * 0.05, w2 + 16, sz * 0.42, E(t, 0.5, 0.6), PAL.sun, 0.75);

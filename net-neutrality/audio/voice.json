@@ -1,0 +1,203 @@
+{
+ "version": 1,
+ "source": {
+  "type": "ai-written-script",
+  "provenance": "written by Claude at the user's explicit request (teaching explanation per topic)",
+  "file": "script.json"
+ },
+ "voice": {
+  "engine": "sherpa-onnx offline TTS",
+  "model": "vits-melo-tts-zh_en (MeloTTS, MIT)",
+  "speaker": 0,
+  "speed": 1.0,
+  "note": "Chromium on this machine only exposes espeak-ng voices, which cannot read Chinese; an offline neural voice was used instead."
+ },
+ "alignment": "tts-clauses (each clause synthesised separately; times are measured, not estimated)",
+ "duration": 57.7333,
+ "lead": 2.6,
+ "tail": 4.0,
+ "file": "audio/voice.wav",
+ "segments": [
+  {
+   "id": "s1",
+   "board": "hook",
+   "text": "如果網路公司讓付錢的網站跑得飛快，沒付錢的卻卡到不行，你覺得公平嗎？",
+   "start": 2.6,
+   "end": 8.314,
+   "clauses": [
+    {
+     "text": "如果網路公司讓付錢的網站跑得飛快，",
+     "start": 2.6,
+     "end": 5.491
+    },
+    {
+     "text": "沒付錢的卻卡到不行，",
+     "start": 5.651,
+     "end": 7.167
+    },
+    {
+     "text": "你覺得公平嗎？",
+     "start": 7.327,
+     "end": 8.314
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "board": "def",
+   "text": "這就是「網路中立性」要討論的問題。",
+   "start": 9.064,
+   "end": 11.484,
+   "clauses": [
+    {
+     "text": "這就是「網路中立性」要討論的問題。",
+     "start": 9.064,
+     "end": 11.484
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "board": "def",
+   "text": "它是指：網路業者應該平等對待所有資料，不因內容、網站或使用者而差別對待。",
+   "start": 11.934,
+   "end": 17.868,
+   "clauses": [
+    {
+     "text": "它是指：網路業者應該平等對待所有資料，",
+     "start": 11.934,
+     "end": 15.022
+    },
+    {
+     "text": "不因內容、網站或使用者而差別對待。",
+     "start": 15.182,
+     "end": 17.868
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "board": "three",
+   "text": "它通常反對三件事：封鎖合法內容、刻意降速，以及收錢就給優先的「付費快車道」。",
+   "start": 18.618,
+   "end": 24.673,
+   "clauses": [
+    {
+     "text": "它通常反對三件事：",
+     "start": 18.618,
+     "end": 20.14
+    },
+    {
+     "text": "封鎖合法內容、刻意降速，",
+     "start": 20.3,
+     "end": 22.226
+    },
+    {
+     "text": "以及收錢就給優先的「付費快車道」。",
+     "start": 22.386,
+     "end": 24.673
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "board": "debate",
+   "text": "支持者認為，中立能保護言論自由，也讓新創公司有公平競爭的機會。",
+   "start": 25.423,
+   "end": 30.777,
+   "clauses": [
+    {
+     "text": "支持者認為，中立能保護言論自由，",
+     "start": 25.423,
+     "end": 28.091
+    },
+    {
+     "text": "也讓新創公司有公平競爭的機會。",
+     "start": 28.251,
+     "end": 30.777
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "board": "debate",
+   "text": "反對者則認為，業者需要彈性管理網路，才有誘因投資更好的基礎建設。",
+   "start": 31.227,
+   "end": 36.751,
+   "clauses": [
+    {
+     "text": "反對者則認為，業者需要彈性管理網路，",
+     "start": 31.227,
+     "end": 34.266
+    },
+    {
+     "text": "才有誘因投資更好的基礎建設。",
+     "start": 34.426,
+     "end": 36.751
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "board": "usa",
+   "text": "美國在這個議題上來回多次，政策隨著政府更替而改變。",
+   "start": 37.501,
+   "end": 41.752,
+   "clauses": [
+    {
+     "text": "美國在這個議題上來回多次，",
+     "start": 37.501,
+     "end": 39.528
+    },
+    {
+     "text": "政策隨著政府更替而改變。",
+     "start": 39.688,
+     "end": 41.752
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "board": "zero",
+   "text": "「零費率」也是爭議焦點：某些程式不算流量，看似優惠，卻可能影響公平競爭。",
+   "start": 42.502,
+   "end": 48.335,
+   "clauses": [
+    {
+     "text": "「零費率」也是爭議焦點：",
+     "start": 42.502,
+     "end": 43.938
+    },
+    {
+     "text": "某些程式不算流量，看似優惠，",
+     "start": 44.098,
+     "end": 46.494
+    },
+    {
+     "text": "卻可能影響公平競爭。",
+     "start": 46.654,
+     "end": 48.335
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "board": "end",
+   "text": "網路就像一條公路，你覺得應該人人同路，還是可以買快車道？",
+   "start": 49.085,
+   "end": 53.71,
+   "clauses": [
+    {
+     "text": "網路就像一條公路，",
+     "start": 49.085,
+     "end": 50.459
+    },
+    {
+     "text": "你覺得應該人人同路，還是可以買快車道？",
+     "start": 50.619,
+     "end": 53.71
+    }
+   ]
+  }
+ ]
+}

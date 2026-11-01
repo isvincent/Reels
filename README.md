@@ -1,7 +1,9 @@
-# Reels · 語言與文化小教室
+# Reels · 語言與文化小教室／公民與社會小教室
 
-五支直式（9:16，1080×1920，30 fps）教學動態圖文短片，對象是高中生，畫面走青春校園筆記本風格。
-每支片約 62–64 秒，含旁白語音、燒錄字幕、AI 合成配樂與音效。
+第一季五支、第二季十支直式（9:16，1080×1920，30 fps）教學動態圖文短片，對象是高中生，畫面走青春校園筆記本風格。
+每支片約 52–64 秒，含旁白語音、燒錄字幕、AI 合成配樂與音效。
+
+### 第一季：語言與文化小教室（EP.01–05）
 
 | 成片 | 專案資料夾 | 片長 |
 |---|---|---|
@@ -10,6 +12,21 @@
 | `videos/語意漂移.mp4` | `semantic-shift/` | 63.0 s |
 | `videos/網路迷因.mp4` | `internet-meme/` | 62.5 s |
 | `videos/文化擴散.mp4` | `cultural-diffusion/` | 62.1 s |
+
+### 第二季：公民與社會小教室（EP.01–10）
+
+| 成片 | 專案資料夾 | 片長 |
+|---|---|---|
+| `videos/路徑依賴.mp4` | `path-dependence/` | 63.3 s |
+| `videos/基本收入制度.mp4` | `basic-income/` | 56.2 s |
+| `videos/參與式預算.mp4` | `participatory-budgeting/` | 53.3 s |
+| `videos/傑利蠑螈選區.mp4` | `gerrymandering/` | 57.1 s |
+| `videos/比較利益原理.mp4` | `comparative-advantage/` | 60.7 s |
+| `videos/網路中立性.mp4` | `net-neutrality/` | 57.7 s |
+| `videos/數位公民權.mp4` | `digital-citizenship/` | 52.4 s |
+| `videos/反公地悲劇.mp4` | `anticommons/` | 60.6 s |
+| `videos/公民不服從.mp4` | `civil-disobedience/` | 56.7 s |
+| `videos/代際契約.mp4` | `intergenerational-contract/` | 57.2 s |
 
 完整的製作規格、分鏡思路與審片紀錄見 [`brief.md`](brief.md)。
 
