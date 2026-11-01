@@ -360,8 +360,8 @@ export function caption(t) {
   const s = currentSeg(t);
   if (s) {
     const kIn = E(t, s.start - 0.12, 0.3), size0 = 54;
-    let size = size0, lines = wrap(s.text, size, w - 90);
-    while (lines.length > 3 && size > 40) { size -= 2; lines = wrap(s.text, size, w - 90); }
+    let size = size0, lines = wrap(s.text, size, w - 130);
+    while (lines.length > 3 && size > 40) { size -= 2; lines = wrap(s.text, size, w - 130); }
     const lh = size * 1.42, y0 = y + h / 2 - (lines.length - 1) * lh / 2 + 6;
     // which clause is speaking: map char ranges
     const ranges = []; let pos = 0; for (const c of s.clauses) { ranges.push([pos, pos + c.text.length, c]); pos += c.text.length; }
